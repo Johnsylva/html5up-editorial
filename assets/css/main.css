@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -105,6 +106,13 @@ body, input, select, textarea {
   @media screen and (max-width: 360px) {
     body, input, select, textarea {
       font-size: 9pt; } }
+
+header h1 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 5em;
+    font-style: normal;
+
+}
 
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
